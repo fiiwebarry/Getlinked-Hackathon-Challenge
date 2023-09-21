@@ -1,0 +1,58 @@
+
+.container-analysis-tab{
+    margin: 0 auto;
+    width:80%;
+}
+.Analysis-tab{
+    padding-top: 90px;
+    display: flex;
+    margin-bottom: 30px;
+}
+.analysis-text-tab{
+    padding-top: 60px;
+}
+.tab-text{
+margin-top:45px ;
+width:533px;
+ height:75px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 173.5%;
+text-align: justify;
+}
+.tab-texter{
+color: #FF26B9;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 173.5%; 
+}
+.Read-tab{
+margin-top: 50px;
+width: 172px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 4px;
+color: #FFFF;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.key-tab-text{
+color: #FFF;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 0%; 
+}
+.key-tab-tab{
+color: #D434FE;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 200%;
+}

@@ -1,0 +1,186 @@
+
+.container-tabb{
+    margin: 0 auto;
+    width:90%;
+
+}
+
+.HomePage-tab{
+    background-color:rgba(24,14,43,255);
+}
+.heading-tab{
+    padding: 45px;
+    margin-left: 130px;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    gap:620px; 
+}
+.header-text{
+font-family: Montserrat;
+color: #FFFF;
+font-size: 36px;
+font-style: italic;
+font-weight: 700;
+line-height: 44px;
+letter-spacing: 0em;
+
+}
+ .stroke-tab {
+  margin-left: 370px;
+  width: 214px;
+    
+}
+.stroke-tab :hover{
+   background-color: blue;
+}
+
+.linked-flex{
+    margin: 0 auto;
+    width:90%;
+    display: flex;
+    
+}
+
+.linked-tab{
+
+ width: 722px;
+ height: 236px; 
+ margin-left: 90px;
+ /* top: 293px;
+ left: 128px; */
+
+}
+.linked-tab-tab{
+    position: relative;
+    width: 597px;
+    height: 98px;
+    /* top: 340px;
+    left: 128px; */
+}
+.linked-tech{
+ font-family: Clash Display;
+ font-size: 80px;
+ font-weight: 700;
+ line-height: 98px;
+ letter-spacing: 0em;
+ text-align: left;
+ color: #FFFF;
+
+}
+.bulb-image{
+    margin-top: 25px;
+    margin-left: 420px;
+    margin-bottom: -30px;
+    
+}
+.hack-tab{
+
+ width: 569px;
+ height: 98px;
+ top: 431px;
+ left: 131px;
+
+}
+.chain-tab{
+    padding-top: 70px;
+    margin-left: -60px;
+}
+.hack-tab-tabb{
+    display: flex;
+}
+.hack-text{
+padding-top: 65px;
+font-family: Clash Display;
+font-size: 80px;
+font-weight: 700;
+line-height: 98px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFF;
+
+}
+.hack-span{
+   color:  #D434FE;
+
+}
+.hack-image-tab{
+    position: relative;
+}
+
+.bubble{
+position: absolute;
+top:0px;
+left: -95px;
+z-index: 1000;
+width: 667px;
+height: 641px;
+background-blend-mode: hard-light;
+}
+.hack-guy{
+position: absolute;
+top:40px;
+left: -160px;
+width: 828px;
+height: 625px;
+}
+.hack-tab-p{
+padding-top: 60px;
+width: 522px;
+height: 66px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 166%; 
+}
+.hack-tab-p p
+{
+margin-top: -40px;
+}
+
+.Reg-btn{
+margin-top: 50px;
+width: 172px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 4px;
+color: #FFFF;
+background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.flex-timer{
+    margin-top: 50px;
+    display: flex;
+    gap:20px;
+    width:285px;
+    height:85px;
+}
+.time{
+color: #FFF;
+font-family: Unica One;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: 133%;
+}
+.timer{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 133%; /* 18.62px */
+}
+.hr-tag{
+    margin-top: 429px;
+}
+
+/****************************/
+    /* MOBILE VIEW */
+/****************************/
+@media screen and (max-width:414px){
+
+
+
+}

@@ -1,0 +1,60 @@
+
+.container-ideatab{
+   margin: 0 auto;
+   width:80%;
+
+
+}
+.bigidea-tab-tab{
+
+    display: flex;
+    gap:70px;
+    margin-bottom: 30px;
+}
+.bigidea-tab{
+   
+    padding-top: 60px;
+}
+
+.big-idea-intro{
+    width:510px;
+    height:86px;
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0; 
+}
+.bigidea-linked{
+    margin-top: 150px;
+}
+.tech-tag{
+
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; 
+width:535px;
+height:165px;
+text-align: justify;
+}
+.tech-intro{   
+color: #D434FE;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 250%;
+}
+
+/* ****************************/ 
+    /* MOBILE VIEW */
+/****************************/
+@media screen and (max-width:414px){
+
+
+
+}

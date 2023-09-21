@@ -1,0 +1,331 @@
+.container-timeline{
+    margin: 0 auto;
+    width:80%;
+}
+.flex-tab{
+display: flex;
+margin: auto;
+justify-content: center;
+ width:138px;
+height:43px;
+color: #FFF;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 0%; /* 0px */
+}
+.flex-tab-tab{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width:346px;
+    height:48px;
+    text-align: center;
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 172.4%; /* 24.136px */
+margin-bottom: 70px;
+}
+
+
+.hr-timeline{
+    width:60px;
+    border: none; 
+    border-left: black;
+}
+.Timeline-tab{
+    padding-top: 70px;
+    margin-bottom: 100px;
+}
+
+
+.rounded{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    padding: 9px;
+    text-align: center;
+    width:32px;
+    height:32px;
+    border-radius: 50%;
+    background-color: #D434FE;
+    color: #FFFF;
+
+}
+.hack-tab-tabss{
+    display: flex;
+    gap:90px;
+
+}
+.tab-timeline{
+    display: flex;
+    flex-direction: column; 
+}
+.line-tab{
+    width:2px;
+    height:50px;
+    
+}
+.line-tab2{
+    width:2px;
+    height:100px;
+}
+.Announce{
+margin-top: 67px;
+display: flex;
+width:343px;
+height:29px;
+color: #D434FE;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: right;
+justify-content: flex-end;
+margin-left:180px;
+}
+.p-tag{
+    padding-top: 10px;
+    width:436px;
+    height:48px;
+    display: flex;
+    text-align: right;
+    margin-left: 90px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; 
+
+}
+.p-tag2{
+    padding-top: 5px;
+    width:348px;
+    height:54px;
+    display: flex;
+    text-align: right;
+    margin-left: 169px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; 
+
+}
+.p-tag3{
+    padding-top: 5px;
+    width:348px;
+    height:54px;
+    display: flex;
+    text-align: right;
+    margin-left: 169px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; 
+
+}
+.p-tag4{
+    padding-top: 5px;
+    width:485px;
+    height:54px;
+    display: flex;
+    text-align: start;
+    margin-left: 2px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; 
+
+}
+
+.p-tag5{
+    padding-top: -5px;
+    width:485px;
+    height:54px;
+    display: flex;
+    text-align: start;
+    margin-left: -1px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%; 
+
+}
+
+.time-line{
+    margin-top: 67px;
+    margin-left:290px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.time-line2{
+    margin-top: 39px;
+    margin-left:290px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.time-line3{
+    margin-top: 39px;
+    margin-left:290px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+
+    .time-line4{
+        margin-top: 112px;
+        margin-left:-1px;
+        color: #D434FE;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        .time-line5{
+            margin-top: 40px;
+            margin-left:-1px;
+            color: #D434FE;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            }
+            .time-line6{
+                margin-top: 24px;
+                margin-left:-1px;
+                color: #D434FE;
+                font-family: Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                
+            }
+
+
+.Announce2{
+    margin-top: 54px;
+    display: flex;
+    width:343px;
+    height:29px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+    justify-content: flex-end;
+    margin-left:180px;
+    }
+
+    .Announce3{
+        margin-top: 52px;
+        display: flex;
+        width:511px;
+        height:29px;
+        color: #D434FE;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: right;
+        justify-content: flex-end;
+        margin-left:10px;
+        }
+
+        .Announce4{
+            margin-top: 52px;
+            display: flex;
+            width:511px;
+            height:29px;
+            color: #D434FE;
+            font-family: Montserrat;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-align: right;
+            justify-content: flex-end;
+            margin-left:-245px;
+            }
+            .Announce5{
+                margin-top: 45px;
+                display: flex;
+                width:416px;
+                height:58px;
+                color: #D434FE;
+                font-family: Montserrat;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-align: left;
+                justify-content: flex-end;
+                margin-left:-5px;
+                }
+                .Announce6{
+                    margin-top: 45px;
+                    display: flex;
+                    width:511px;
+                    height:29px;
+                    color: #D434FE;
+                    font-family: Montserrat;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    text-align: left;
+                    margin-bottom: 10px;
+                    margin-left:-2px; 
+
+                }
+                .p-tag6{
+                    padding-top: 30px;
+                    width:481px;
+                    height:81px;
+                    display: flex;
+                    text-align: start;
+                    margin-left: -1px;
+                    color: #FFF;
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 170.9%; 
+                
+
+                }
+                .Timeline-tab{
+
+                }

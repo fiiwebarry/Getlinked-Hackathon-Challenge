@@ -1,0 +1,95 @@
+.container-partner{
+    margin:0 auto;
+    width:80%;
+}
+
+
+
+
+.partners-tab{
+margin-top: 40px;
+width: 1255px;
+height: 560px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #D434FE;
+background: rgba(255, 255, 255, 0.01);
+}
+.partners-tab-tabs{
+padding: 50px;
+ width:898px;
+ height:272px;
+ 
+
+}
+.flex-partners{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap:75px;
+    margin-left: 390px;
+    
+   
+    
+}
+.part-lines{
+    margin-top: 30px;
+    display: flex;
+    gap: 120px;
+    margin-left: 170px; 
+}
+
+.flex-partners3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap:70px;
+    margin-left: 390px;
+}
+.liberty-pic{
+    margin-top: 40px;
+    width:213px;
+    height: 40px;
+}
+.pic-tab{
+    width:120px;
+    height:113px;
+}
+.pic-tab2{
+    width:132px;
+    height:107px;
+}
+.line-ttab{
+    width:313px;
+    height:4px;
+}
+.pic-tab3 {
+    width: 107px;
+    height: 110px;
+}
+.line-ttab2{
+    width:413px;
+    height:4px;
+}
+.paybox{
+    width:204px;
+    height:21px;
+}
+.span-box{
+color: #00A3FF;
+font-family: Typo Hoop Demo;
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+}
+.pay-box{
+color: #FFFF;
+font-family: Typo Hoop Demo;
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+}

@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 400;
+  src:url(./assets/fonts/ClashDisplay-Regular.woff2);
+}
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 400;
+  src:url(./assets/fonts/ClashDisplay-Regular.woff2);
+}
+
+
+
+
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 400;
+  src:url(./assets/fonts/ClashDisplay-Regular.woff2);
+}
+
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 500;
+  src:url(./assets/fonts/ClashDisplay-Medium.woff2);
+
+  
+}
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 400;
+  src:url(./assets/fonts/Typo\ Hoop_Regular_Demo.otf);
+}
+
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 700;
+  src:url(./assets/fonts/ClashDisplay-Bold.woff2);
+}
+
+@font-face{
+  font-family: ClashDisplay;
+  font-style: normal;
+  font-weight: 700;
+  src:url(./assets/fonts/Typo\ Hoop_Bold\ Demo.otf);
+}
