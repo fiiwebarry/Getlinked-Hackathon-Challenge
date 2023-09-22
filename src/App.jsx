@@ -1,14 +1,13 @@
 
-import Navbar from './Components/Navbar/Navbar'
-import HomePage from './Components/HomePageLayout/HomePage/HomePage'
-import AboutPage from './Components/HomePageLayout/AboutPage/AboutPage'
-import GuideListPage from './Components/HomePageLayout/GuideListPage/GuideListPage'
-import Analysistab from './Components/HomePageLayout/Analysistab/Analysistab'
-import Faq from './Components/HomePageLayout/Faq/Faq'
-import Timeline from './Components/HomePageLayout/Timeline/Timeline'
-import Rewards from './Components/HomePageLayout/Rewards/Rewards'
-import Partners from './Components/HomePageLayout/Partners/Partners'
-import Privacy from './Components/HomePageLayout/Privacy/Privacy'
+import { BrowserRouter as Router, createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { BrowserRouter as Switch, Route } from "react-router-dom";
+
+
+import Home from "./Pages/Home/index";
+
+
+import Navbar from './Components/Generic-Layout/Navbar/Navbar'
+
 import Footer from './Components/Footer/Footer'
 
 import './App.css'
@@ -22,21 +21,23 @@ import './App.css'
 
 function App() {
 
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <Home /> },
+
+      ],
+    },
+  ]);
+
 
   return (
-    <section>
-      <Navbar />
-      <HomePage />
-      <AboutPage />
-      <GuideListPage />
-      <Analysistab />
-      <Faq />
-      <Timeline />
-      <Rewards />
-      <Partners />
-      <Privacy />
-      <Footer />
-    </section>
+    <>
+
+      <RouterProvider router={router} />
+    </>
   )
 }
 
