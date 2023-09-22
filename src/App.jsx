@@ -4,11 +4,7 @@ import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 
 import Home from "./Pages/Home/index";
-
-
-import Navbar from './Components/Generic-Layout/Navbar/Navbar'
-
-import Footer from './Components/Footer/Footer'
+import RootLayout from "/src/Root";
 
 import './App.css'
 

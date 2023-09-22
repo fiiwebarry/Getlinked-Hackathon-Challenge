@@ -1,15 +1,18 @@
 
 import "./index.css"
 
-import HomePage from './Components/HomePageLayout/HomePage/HomePage'
-import AboutPage from './Components/HomePageLayout/AboutPage/AboutPage'
-import GuideListPage from './Components/HomePageLayout/GuideListPage/GuideListPage'
-import Analysistab from './Components/HomePageLayout/Analysistab/Analysistab'
-import Faq from './Components/HomePageLayout/Faq/Faq'
-import Timeline from './Components/HomePageLayout/Timeline/Timeline'
-import Rewards from './Components/HomePageLayout/Rewards/Rewards'
-import Partners from './Components/HomePageLayout/Partners/Partners'
-import Privacy from './Components/HomePageLayout/Privacy/Privacy'
+import HomePage from '/src/Components/HomePageLayout/HomePage/HomePage'
+import AboutPage from '/src/Components/HomePageLayout/AboutPage/AboutPage'
+import GuideListPage from '/src/Components/HomePageLayout/GuideListPage/GuideListPage'
+import Analysistab from '/src/Components/HomePageLayout/Analysistab/Analysistab'
+import Faq from '/src/Components/HomePageLayout/Faq/Faq'
+import Timeline from '/src/Components/HomePageLayout/Timeline/Timeline'
+import Rewards from '/src/Components/HomePageLayout/Rewards/Rewards'
+import Partners from '/src/Components/HomePageLayout/Partners/Partners'
+import Privacy from '/src/Components/HomePageLayout/Privacy/Privacy'
+import Footer from "/src/Components/HomePageLayout/Footer/Footer"
+
+
 
 const index = () => {
 
@@ -24,6 +27,8 @@ const index = () => {
             <Rewards />
             <Partners />
             <Privacy />
+            <Footer />
+
 
 
         </div>
