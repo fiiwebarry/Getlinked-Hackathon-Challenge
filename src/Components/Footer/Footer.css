@@ -1,0 +1,142 @@
+.container-Footer{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer-layout{
+    background-color:#110b20;
+}
+.Footer-page{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.hack-tch{
+    margin-top: 20px;
+    width:500px;
+    height: 82px;
+    color: #FFF;
+   font-family: Montserrat;
+   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%; /* 26.376px */
+}
+.terms-tab{
+    display: flex;
+    margin-top: 80px;
+    height: 21px;
+    gap:10px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; /* 20.688px */
+}
+.usetabs{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 172.4%; /* 24.136px */
+
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.contact-link{
+    margin-top: 10px;
+    display: flex;
+    gap:20px
+}
+.connect-tab{
+    margin-top: 5px;
+    width:58px;
+    height:15px;
+    color: #D434FE;
+   font-family: Montserrat;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.connect-tab2{
+    margin-top: 10px;
+    width:80px;
+    height:24px;
+    color: #D434FE;
+   font-family: Montserrat;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.icon{
+    width:24px;
+    height: 24px;
+}
+
+.icon2{
+    margin-top: 5px;
+    width:19px;
+    height: 17px;
+}
+
+.icon3{
+    width:11px;
+    height: 20px;
+}
+
+.icon4{
+    width:24px;
+    height: 24px;
+}
+.contact-tab{
+/* width:103px;  */
+/* height:15px;  */
+color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.location-tab{
+width: 89px;
+height: 57px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.flex-contact{
+    margin-top: 20px;
+    display: flex;
+    gap:20px;
+}
+.locator{
+    width:13px;
+    height: 15px;
+}
+.footer-check{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 25px;
+    color: #FFF;
+    font-family: Montserrat;
+     font-size: 12px;
+    font-style: normal;
+   font-weight: 400;
+    line-height: normal;
+}

@@ -1,0 +1,147 @@
+
+.container-privacy{
+
+    margin:0 auto;
+    width:80%;
+
+}
+
+.privacy-flex{
+    padding-top:140px;
+    display: flex;
+    gap:120px;
+    margin-bottom: 90px;
+}
+.content-tablist{
+    margin-top: 50px;
+    padding: 67px;
+    width: 569px;
+   height: 608px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   border: 1px solid #D434FE;
+   background: rgba(217, 217, 217, 0.03);
+}
+.content-list{
+text-align: justify;
+width:425px;
+height:180px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%; /* 30.296px */
+}
+
+
+.licence-tab{
+    padding-top: 20px;
+    width: 136px;
+    height: 35px;
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 34.624px */
+}
+.Standard-tab{
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%; /* 30.296px */
+}
+.flex-standard{
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lock-relative{
+    position: relative;
+}
+.lock-absolute{
+    position: absolute;
+}
+.lock-absolute2{
+    position: absolute;
+    top:190px;
+    left:-50px;
+}
+.list-image{
+    width:17px;
+    height:17px;
+    margin-top: 7px;
+}
+.list-text{
+width:401px;
+height: 60px;
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%; /* 30.296px */
+}
+.standard-btn{
+    
+     display: flex; 
+     padding: 15px 20px 10px 50px;
+    margin: auto;
+    color: #FFF;
+    /* padding: 25px; */
+    width: 172px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+}
+.privacy-policy{
+    width: 300px;
+    height:78px;
+}
+.Terms{
+color: #D434FE;
+font-family: Clash Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.pri-tab{
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.pri-text-tab{
+    margin-top: 20px;
+    width:258px;
+    height:28px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: Montserrat;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+  line-height: 27.5px; /* 196.429% */
+}
+.policy-tab{
+    margin-top: 20px;
+    width:438px;
+    height: 52px;
+    color: #FFF;
+   font-family: Montserrat;
+   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 188.4%; /* 26.376px */
+}
+.privacy-line{
+    border-block-color:#110b20;
+}

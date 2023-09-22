@@ -11,9 +11,9 @@ const Partners = () => {
     return (
         <section className=" ">
             <div className="container-partner partners-tab-tab">
-                <h3>Partners and Sponsors</h3>
+                <h3 className="Part-tab">Partners and Sponsors</h3>
 
-                <p>Getlinked Hackathon 1.0 is honored to have the following major
+                <p className="part-tab-text">Getlinked Hackathon 1.0 is honored to have the following major
                     companies as its partners and sponsors</p>
 
 
@@ -46,10 +46,10 @@ const Partners = () => {
                             </div>
 
                             <img src={image4} />
-                            <div className="paybox">
-                                <div>
-                                    <h3 className="Vizual">pay<span className="span-box">plus</span></h3>
-                                    <p>Design Studios</p>
+                            <div className="vbox">
+                                <div className="Vbox">
+                                    <h3 className="Vizual-tab">Vizual  <span className="span-box-vi">Plus</span></h3>
+                                    <p className="design-tab">Design Studios</p>
 
                                 </div>
 
@@ -67,6 +67,7 @@ const Partners = () => {
 
 
             </div>
+            <hr />
 
         </section>)
 }
