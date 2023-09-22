@@ -5,6 +5,9 @@ import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import Home from "./Pages/Home/index";
 import RootLayout from "/src/Root";
+import Register from "./Pages/Register-page/index";
+import ContactUs from "./Pages/Contact-page/index";
+
 
 import './App.css'
 
@@ -23,6 +26,8 @@ function App() {
       element: <RootLayout />,
       children: [
         { index: true, element: <Home /> },
+        { path: "/register-page", element: <Register /> },
+        { path: "/contact-page", element: <ContactUs /> },
 
       ],
     },
