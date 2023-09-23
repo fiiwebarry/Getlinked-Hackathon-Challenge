@@ -7,6 +7,7 @@
 .GuideList-tab{
     padding-top: 50px;
     display: flex;
+    gap: 90px;
 }
 
 .Guide-tab{
@@ -25,6 +26,7 @@ text-align: justify;
 }
 
 .steps-tab{
+position: relative;
 width:170px;
 height:86px;
 }
@@ -46,6 +48,113 @@ font-weight: 700;
 line-height: 190%; 
 
 }
+.tab-desk{
+    position: relative;
+}
 .steps-tab-tab{
     margin-top: 170px;
+}
+.blur-tab{
+    position: absolute;
+    width:750px;
+    height: 650px;
+    opacity: 0.5;
+    top:-260px;
+    left: 36px;
+}
+.gray-tab{
+    position: absolute;
+    top:-40px;
+     left:300px;
+}
+.blur-tab-tab{
+    position: absolute;
+    width:250px;
+    top:266px;
+    left: 550px;
+    opacity: 0.5;
+}
+.star-pic{
+    position: absolute;
+    top:450px;
+    left:20px;
+}
+.gray-tab-tab{
+    display: none;
+}
+
+/* ****************************/ 
+    /* MOBILE VIEW */
+/****************************/
+@media screen and (max-width:464px){
+
+    .GuideList-tab{
+        flex-direction: column-reverse;
+    }
+    .desk-lady{
+        width: 294px;
+         height: 382px;
+         margin-left: 20px;
+
+    }
+    .gray-tab{
+        position: absolute;
+        top:-260px;
+         left:30px;
+         width:12px;
+         height:14px;
+    }
+
+    .star-pic{
+        position: absolute;
+        top:480px;
+        left:290px;
+        width:12px;
+        height:14px;
+    }
+    .gray-tab-tab{
+        position: absolute;
+        display: block;
+        width:12px;
+        height:14px;
+        top:740px;
+        left:80px;
+    }
+
+    .blur-tab{
+        position: absolute;
+        width:500px;
+        height: 450px;
+        opacity: 0.7;
+        top:-630px;
+        left: -108px;
+    
+}
+.rules-tab,.guide-tab {
+    width:400px;
+    font-size: 20px;
+    margin-top: -217px;
+    margin-left: 115px;
+}
+.guide-tab-text{
+width: 300px;
+height:248px;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 13px;
+margin-left:15px;
+
+}
+
+.blur-tab-tab{
+    position: absolute;
+    width:250px;
+    top:266px;
+    left: 150px;
+    opacity: 0.5;
+}
+.GuideList-tab{
+    margin-bottom: 90px;
+}
 }

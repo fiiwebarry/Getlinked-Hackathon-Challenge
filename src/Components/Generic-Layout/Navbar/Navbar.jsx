@@ -1,8 +1,10 @@
-
+import dropdownbtn from "/src/assets/Icons/burger.png"
 import "./Navbar.css"
 
 
-const Navbar = () => {
+
+// eslint-disable-next-line react/prop-types
+const Navbar = ({ setShowNav }) => {
 
     return (
 
@@ -21,8 +23,10 @@ const Navbar = () => {
                         <li>Contact</li>
                     </ul>
 
+
                     <button className="Register-btn" type="button">Register</button>
                 </div>
+                <button onClick={() => setShowNav(prev => !prev)} className="btn-hide"><img src={dropdownbtn} /></button>
 
             </div>
 

@@ -4,6 +4,9 @@ import quest from "/src/assets/Images/quest.png"
 import quest1 from "/src/assets/Images/quest.png"
 import quest2 from "/src/assets/Images/quest.png"
 import plus from "/src/assets/Icons/plus.png"
+import purple from "/src/assets/Icons/star-purple.png"
+import star from "/src/assets/Icons/star.png"
+import grey from "/src/assets/Icons/star-grey.png"
 import { data } from "./data"
 
 const Faq = () => {
@@ -13,6 +16,7 @@ const Faq = () => {
             <div className=" container-faq faq-tablet">
                 <div className="faq-tab-tab">
                     <div>
+                        <img className="pop" src={purple} alt="tab" />
                         <div className="faq-tabs">
                             <h3 className="faq-freq">
                                 Frequently Ask
@@ -30,7 +34,7 @@ const Faq = () => {
 
                             const { id, content } = tab;
                             return (
-                                <div key={id}>
+                                <div className="relate-tab" key={id}>
                                     <div className="accordion-tab">
                                         <div className="content-tab">
                                             <p>
@@ -57,11 +61,15 @@ const Faq = () => {
 
                 </div>
 
-                <div>
-                    <img src={casual} alt="" />
-                    <img src={quest} alt="" />
-                    <img src={quest1} alt="" />
-                    <img src={quest2} alt="" />
+                <div className="casual-tab">
+                    <img className="pop2" src={purple} alt="tab" />
+                    <img className="pop3" src={purple} alt="tab" />
+                    <img className="pop4" src={grey} alt="tab" />
+                    <img className="casual-bee" src={casual} alt="" />
+                    <img className="quest" src={quest} alt="" />
+                    <img className="quest1" src={quest1} alt="" />
+                    <img className="quest2" src={quest2} alt="" />
+                    <img className="pop5" src={star} alt="tab" />
 
 
 

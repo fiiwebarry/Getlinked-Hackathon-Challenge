@@ -172,3 +172,42 @@ line-height: normal;
 .hr-line-tab{
     border-block-color:#110b20;
 }
+
+/* ****************************/ 
+    /* MOBILE VIEW */
+/****************************/
+@media screen and (max-width:464px){
+
+
+    .flex-cabinet {
+        flex-direction: column;
+    }
+
+    .trophy-main{
+width: 321px;
+height: 282px;
+flex-shrink: 0;
+    }
+    .silver{
+width: 75px;
+height: 76px;
+flex-shrink: 0;
+
+    }
+    .flex-trophy{
+        gap: unset;
+    }
+  
+   
+    .silver-tab {
+        width: 90.007px;
+height: 125.671px;
+flex-shrink: 0;
+    }
+    .gold-tab {
+        width: 90.007px;
+height: 147.323px;
+flex-shrink: 0;
+    }
+}
+    

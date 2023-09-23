@@ -5,6 +5,9 @@ import chain from "/src/assets/Icons/chain.png";
 import icon from "/src/assets/Icons/star.png";
 import blaze from "/src/assets/Icons/blaze.png";
 import coder from "/src/assets/Images/hackathon-game.png";
+import gray from "/src/assets/Icons/star-grey.png"
+import blur from "/src/assets/Icons/blur-home.png"
+
 
 const HomePage = () => {
 
@@ -12,7 +15,8 @@ const HomePage = () => {
 
         <section className="HomePage-tab">
             <div className="heading-tab">
-                <div><img src={icon} /></div>
+                <div><img className="star-light" src={icon} alt="icon" /></div>
+                <img className="blur-image" src={blur} alt="blur" />
                 <div>
                     <h2 className="header-text">Igniting a Revolution in HR Innovation</h2>
                     <svg className="stroke-tab" xmlns="http://www.w3.org/2000/svg" width="255" height="17" viewBox="0 0 255 17" fill="none">
@@ -29,7 +33,7 @@ const HomePage = () => {
 
                 <div className="linked-tab">
                     <div className="linked-tab-tab">
-                        <img className="bulb-image" src={bulb} />
+                        <img className="bulb-image" src={bulb} alt="bulb" />
                         <h4 className="linked-tech">getlinked Tech</h4>
                     </div>
 
@@ -39,8 +43,8 @@ const HomePage = () => {
                         </div>
 
                         <div className="chain-tab">
-                            <img src={chain} />
-                            <img src={blaze} />
+                            <img className="chainer" src={chain} alt="chain" />
+                            <img className="blaze" src={blaze} alt="blaze" />
 
                         </div>
 
@@ -59,12 +63,14 @@ const HomePage = () => {
                         <p className="time">00<span className="timer">M</span></p>
                         <p className="time">00<span className="timer">S</span></p>
 
+                        <img className="timer-star" src={gray} alt="gray-star" />
+
                     </div>
 
                 </div>
 
                 <div className="hack-image-tab">
-
+                    <img className="bubble-star" src={gray} alt="gray-star" />
                     <img className="bubble" src={bubble} />
                     <img className="hack-guy" src={coder} alt="hackathon-guy" />
                 </div>

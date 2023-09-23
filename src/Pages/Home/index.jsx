@@ -1,6 +1,6 @@
 
 import "./index.css"
-
+import MobileNavbar from "/src/Components/HomePageLayout/MobileNavbar/MobileNavbar"
 import HomePage from "/src/Components/HomePageLayout/HomePage/HomePage"
 import AboutPage from '/src/Components/HomePageLayout/AboutPage/AboutPage'
 import GuideListPage from '/src/Components/HomePageLayout/GuideListPage/GuideListPage'
@@ -14,7 +14,13 @@ import Footer from "/src/Components/HomePageLayout/Footer/Footer"
 
 
 
-const index = () => {
+
+const index = ({ showNav, setShowNav }) => {
+
+
+
+
+
 
     return (
         <div className="home-page">
@@ -28,6 +34,7 @@ const index = () => {
             <Partners />
             <Privacy />
             <Footer />
+            <MobileNavbar setShowNav={setShowNav} showNav={showNav} />
 
 
 

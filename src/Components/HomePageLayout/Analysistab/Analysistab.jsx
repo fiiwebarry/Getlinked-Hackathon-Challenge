@@ -1,5 +1,13 @@
 import "./Analysistab.css"
 import analysis from "/src/assets/Images/analysis.png"
+import purple from "/src/assets/Icons/star-purple.png"
+import star from "/src/assets/Icons/star.png"
+import grey from "/src/assets/Icons/star-grey.png"
+import blur from "/src/assets/Icons/blur-home.png"
+import blur2 from "/src/assets/Icons/blur.png"
+import slip from "/src/assets/Images/Ellipse2.png"
+
+
 
 const Analysistab = () => {
 
@@ -8,7 +16,15 @@ const Analysistab = () => {
             <div className=" container-analysis-tab Analysis-tab">
 
                 <div className="analysis-text-tab">
-                    <img src={analysis} />
+                    <img className="analysis-pic" src={analysis} alt="analysis" />
+                    <img className="slip" src={slip} alt="slip" />
+
+                    <img className="purple-tab" src={purple} alt="purple" />
+                    <img className="grey-head" src={grey} alt="grey" />
+                    <img className="blur-tabbd" src={blur} alt="blur" />
+
+
+
 
                 </div>
 
@@ -17,6 +33,7 @@ const Analysistab = () => {
                     <div className="key-tab">
                         <h3 className="key-tab-text">Judging Criteria</h3>
                         <span className="key-tab-tab">Key attributes</span>
+
 
                     </div>
 
@@ -49,6 +66,9 @@ const Analysistab = () => {
 
 
                     <button className="Read-tab">Read More</button>
+                    <img className="start" src={star} alt="star" />
+                    <img className="blur-tabt" src={blur2} alt="blur2" />
+
 
                 </div>
 

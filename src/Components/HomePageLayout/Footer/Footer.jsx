@@ -56,12 +56,12 @@ const Footer = () => {
             <div>
                 <h3 className="connect-tab2">Contact Us</h3>
 
-                <div className="flex-contact">
+                <div className="flexs-contact">
                     <img src={contact} />
                     <p className="contact-tab">+234 6707653444</p>
                 </div>
 
-                <div className="flex-contact">
+                <div className="flexs-contact">
                     <img className="locator" src={gps} />
                     <p className="location-tab">27,Alara Street
                         Yaba 100012

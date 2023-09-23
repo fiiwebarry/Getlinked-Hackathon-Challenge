@@ -6,16 +6,20 @@
 }
 
 .HomePage-tab{
-    background-color:rgba(24,14,43,255);
+background-color:rgba(24,14,43,255);
 }
+
+
 .heading-tab{
-    padding: 45px;
-    margin-left: 130px;
-    width:90%;
-    display: flex;
-    justify-content: center;
-    gap:620px; 
+position: relative;    
+padding: 45px;
+margin-left: 130px;
+width:90%;
+display: flex;
+justify-content: center;
+gap:620px; 
 }
+
 .header-text{
 font-family: Montserrat;
 color: #FFFF;
@@ -27,38 +31,36 @@ letter-spacing: 0em;
 
 }
  .stroke-tab {
-  margin-left: 370px;
+  margin-left: 450px;
   width: 214px;
     
 }
 .stroke-tab :hover{
-   background-color: blue;
+background-color: blue;
 }
 
 .linked-flex{
-    margin: 0 auto;
-    width:90%;
-    display: flex;
+margin: 0 auto;
+width:90%;
+display: flex;
     
 }
 
 .linked-tab{
-
- width: 722px;
+position: relative;
+    
+  width: 722px;
  height: 236px; 
  margin-left: 90px;
- /* top: 293px;
- left: 128px; */
-
 }
+
 .linked-tab-tab{
     position: relative;
     width: 597px;
     height: 98px;
-    /* top: 340px;
-    left: 128px; */
 }
 .linked-tech{
+ margin-top: 60px;
  font-family: Clash Display;
  font-size: 80px;
  font-weight: 700;
@@ -69,13 +71,13 @@ letter-spacing: 0em;
 
 }
 .bulb-image{
-    margin-top: 25px;
-    margin-left: 420px;
-    margin-bottom: -30px;
+ position: absolute; 
+ top:-40px;
+ left:420px
+
     
 }
 .hack-tab{
-
  width: 569px;
  height: 98px;
  top: 431px;
@@ -83,14 +85,15 @@ letter-spacing: 0em;
 
 }
 .chain-tab{
-    padding-top: 70px;
-    margin-left: -60px;
+position: relative;
+padding-top: 10px;
+margin-left: -55px;
 }
 .hack-tab-tabb{
-    display: flex;
+display: flex;
 }
 .hack-text{
-padding-top: 65px;
+
 font-family: Clash Display;
 font-size: 80px;
 font-weight: 700;
@@ -101,7 +104,7 @@ color: #FFFF;
 
 }
 .hack-span{
-   color:  #D434FE;
+color:  #D434FE;
 
 }
 .hack-image-tab{
@@ -112,7 +115,7 @@ color: #FFFF;
 position: absolute;
 top:0px;
 left: -95px;
-z-index: 1000;
+z-index: 1700;
 width: 667px;
 height: 641px;
 background-blend-mode: hard-light;
@@ -140,6 +143,7 @@ line-height: 166%;
 margin-top: -40px;
 }
 
+
 .Reg-btn{
 margin-top: 50px;
 width: 172px;
@@ -150,11 +154,12 @@ color: #FFFF;
 background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
 }
 .flex-timer{
-    margin-top: 50px;
-    display: flex;
-    gap:20px;
-    width:285px;
-    height:85px;
+position: relative;
+margin-top: 50px;
+display: flex;
+gap:20px;
+width:285px;
+height:85px;
 }
 .time{
 color: #FFF;
@@ -176,11 +181,189 @@ line-height: 133%; /* 18.62px */
     margin-top: 429px;
 }
 
+/* Stars */
+.timer-star{
+    position: absolute;
+    width:26px;
+    height: 32px;
+    top:-40px;
+    left:380px;
+}
+.star-light{
+  position: absolute;
+  margin-top: 40px;
+  top:60px;
+  left:70px;
+  width: 26px;
+  height: 32px;
+  
+}
+.blur-image{
+    position: absolute;
+    top:-100px;
+    left:-50px;
+    opacity: 0.5;
+}
+.blaze{
+    position: absolute;
+    top:24px;
+    left:102px;
+}
+.bubble-star{
+    margin-top: 10px;
+    margin-left: -40px;
+}
+
+
+
+
+
+
+
 /****************************/
     /* MOBILE VIEW */
 /****************************/
-@media screen and (max-width:414px){
+@media screen and (max-width:424px){
+.heading-tab{
+margin-left: unset;
+flex-direction: column-reverse;
+gap:0px;
 
+}
+.header-text
+{
+width: 324px;
+height: 14px;
+margin-left: unset;
+font-size: 16px;
+flex-shrink: 0;
+}
 
+.stroke-tab{
+    width:115px;
+    height:7px;
+    margin-left: 190px;
+    margin-top: 20px;
+}
+.star-light{
+    position: absolute;
+    
+    top:80px;
+    left:125px;
+    width: 17px;
+    height: 12px;
+    
+  }
+.linked-flex{
+flex-direction: column;
+}
 
+.linked-tech{
+margin-top: 2px; 
+margin-left: 50px;
+width: 269px;
+height: 37px;
+font-size: 32px;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+    
+}
+.hack-tab{
+    width: 281px;
+    height: 37px;
+    top: 431px;
+    left: 131px;
+   
+   }
+   .hack-text{
+    /* margin-top: -150px; */
+    font-size: 32px;
+    margin-left: 20px;
+}
+.bulb-image{
+    width:18px;
+    height:26px;   
+}
+.linked-tab{
+  margin-left: 20px;
+    }
+.bulb-image{
+position: absolute; 
+top:-20px;
+left:219px
+ }
+ .hack-tab-tabb{
+    margin-top: -90px;
+    margin-left: 15px;
+  
+    }
+    .chain-tab img{
+        width:22px;
+        height:22px;
+    }
+    .chainer{
+        margin-top: 27px;
+        margin-left:-5px;
+    }
+    .blaze{
+        position: absolute;
+        top:37px;
+        left:17px;
+        /* width: 22px;
+        height: 22px; */
+    }
+    .blur-image{
+        position: absolute;
+        top:-40px;
+        left:-360px;
+        opacity: 0.5;
+    }
+    .hack-tab-p{
+        margin-left: 35px;
+        width: 264px;
+        height: 44px;
+        font-size: 13px;
+
+    }
+    
+    .Reg-btn{
+    margin-top: 25px;
+    margin-left: 80px;
+    width: 152px;
+    height: 46.837px;
+    flex-shrink: 0;
+    }
+    .flex-timer
+    {
+        width:214px;
+        height:64px;
+       
+
+    }
+    .time{
+        margin-top: -49px;
+        margin-left: 25px;
+        font-size: 48px;
+    }
+    .hack-guy{
+     margin-left: 130px;   
+     width: 420px;
+     height: 362px;
+     flex-shrink: 0;
+    }
+    .bubble{
+        margin-left: 100px; 
+    width: 338px;
+    height: 325px;
+
+    }
+.hack-image-tab{
+    margin-top: 50px;
+}
+.hr-tag{
+    margin-top: 355px;
+}
 }

@@ -80,7 +80,9 @@ ul{
 hr{
   border: 1px solid #FFFFFF2E
 }
-
+.btn-hide{
+  display: none;
+}
 
 
 
@@ -92,7 +94,18 @@ hr{
 /****************************/
     /* MOBILE VIEW */
 /****************************/
-@media screen and (max-width:414px){
+@media screen and (max-width:480px){
+
+.btn-hide{
+  display: block;
+}
+.nav-flex{
+  display: none;
+}
+.logo-text,.logo-span{
+  font-size:25px;
+}
+
 
 
 

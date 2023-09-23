@@ -1,6 +1,8 @@
 
 import "./AboutPage.css"
 import Bigidea from "/src/assets/Images/big-idea.png"
+import arrow from "/src/assets/Icons/arrow.png"
+import purple from "/src/assets/Icons/star-purple.png"
 
 const AboutPage = () => {
 
@@ -8,8 +10,10 @@ const AboutPage = () => {
         <section className="bigidea-tab">
 
             <div className=" container-ideatab bigidea-tab-tab">
-                <div>
-                    <img src={Bigidea} alt="big-idea" />
+                <div className="idea-tab">
+                    <img className="star-purple" src={purple} alt="star" />
+                    <img className="big-idea" src={Bigidea} alt="big-idea" />
+                    <img className="arrow-tab" src={arrow} alt="arrow" />
                 </div>
 
                 <div className="bigidea-linked">
@@ -31,7 +35,7 @@ const AboutPage = () => {
                 </div>
             </div>
 
-            <hr />
+            <hr className="tech-hr" />
 
         </section>
 

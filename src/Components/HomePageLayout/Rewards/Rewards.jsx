@@ -1,5 +1,5 @@
 import "./Rewards.css"
-import icon from "/src/assets/Icons/sata gra (1).png"
+import icon from "/src/assets/Icons/star-purple.png"
 import trophy from "/src/assets/Images/trophy.png"
 import gold from "/src/assets/Images/gold_medal.png"
 import silver from "/src/assets/Images/silver_medal.png"
@@ -27,11 +27,11 @@ const Rewards = () => {
                 </div>
 
                 <div className="flex-cabinet">
-                    <div> <img src={trophy} /></div>
+                    <div> <img className="trophy-main" src={trophy} /></div>
                     <div className="flex-trophy">
                         <div className="trophy-box">
                             <div className="absolute-tab">
-                                <img src={silver} />
+                                <img className="silver" src={silver} />
                             </div>
 
                             <div className="silver-tab">
@@ -50,7 +50,7 @@ const Rewards = () => {
                         <div className="trophy-box">
 
                             <div className="absolute-tab3">
-                                <img src={gold} />
+                                <img className="silver" src={gold} />
                             </div>
                             <div className="gold-tab">
                                 <div className="box-tab2">
@@ -69,7 +69,7 @@ const Rewards = () => {
                         <div className="trophy-box">
 
                             <div className="absolute-tab2">
-                                <img src={bronze} />
+                                <img className="silver" src={bronze} />
                             </div>
                             <div className="silver-tab">
                                 <div className="box-tab">

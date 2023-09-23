@@ -99,8 +99,6 @@
     height: 24px;
 }
 .contact-tab{
-/* width:103px;  */
-/* height:15px;  */
 color: #FFF;
 font-family: Montserrat;
 font-size: 12px;
@@ -118,7 +116,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-.flex-contact{
+.flexs-contact{
     margin-top: 20px;
     display: flex;
     gap:20px;

@@ -8,8 +8,11 @@
 .bigidea-tab-tab{
 
     display: flex;
-    gap:70px;
-    margin-bottom: 30px;
+    gap:160px;
+    margin-bottom: 50px;
+}
+.idea-tab{
+    position: relative;
 }
 .bigidea-tab{
    
@@ -49,12 +52,70 @@ font-style: normal;
 font-weight: 700;
 line-height: 250%;
 }
+.star-purple{
+    position: absolute;
+    top:170px;
+    left:-30px
+
+}
+
 
 /* ****************************/ 
     /* MOBILE VIEW */
 /****************************/
-@media screen and (max-width:414px){
+@media screen and (max-width:464px){
 
+    .bigidea-tab-tab{
+        
+        flex-direction: column;
+        gap:0px;
+        margin-bottom: 0px;
+    }
+    .big-idea{
+        width: 264.004px;
+        height: 257px;
+        flex-shrink: 0;
+        margin-left: 40px;
+    }
+
+    .star-purple{
+        position: absolute;
+        top:95px;
+        left:39px;
+        width:11px;
+        height: 13px;
+    
+    }
+    .arrow-tab{
+        position: absolute;
+        width: 19px;
+        height: 23px;
+        top:260px;
+        left:160px;
+    }
+    .big-idea-intro {
+        margin-top: -75px;
+        font-size: 20px;
+        margin-left: 39px;
+    }
+    .tech-intro{
+        font-size: 20px;
+        margin-left: 39px;
+    }
+    .tech-tag{
+    width:321px;
+    height: 107px;
+    text-align: center;
+    font-size: 13px;
+    margin-left: 5px;
+
+    }
+    .bigidea-tab-tab{
+   
+        margin-bottom: 200px;
+    }
+   
+    
 
 
 }
